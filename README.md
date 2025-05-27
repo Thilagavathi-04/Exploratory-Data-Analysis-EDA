@@ -16,7 +16,7 @@ The objective of this project is to perform a comprehensive exploratory data ana
 
 **File Used:** airplane_crash dataset.csv
 
-***Tools & Libraries Used:**
+**Tools & Libraries Used:**
 
 Python (Jupyter Notebook)
 
@@ -28,18 +28,17 @@ matplotlib, seaborn – Static data visualization
 
 plotly – Interactive data visualization
 
-Project Structure:
+# Project Structure:
 
-Airplane_Crashes_EDA/
 
-├── airplane_crash dataset.csv
-├── airplane_crash_eda.ipynb
-├── processed_airplane_crashes.csv (optional)
-└── README.md
+── airplane_crash dataset.csv
+── airplane_crash_eda.ipynb
+── processed_airplane_crashes.csv (optional)
+── README.md
 
-Key Steps Performed:
+# Key Steps Performed:
 
-1. Data Acquisition & Exploration
+**1. Data Acquisition & Exploration**
 
 Loaded the dataset using pandas.
 
@@ -47,7 +46,7 @@ Displayed top rows and info.
 
 Inspected column types and missing values.
 
-2. Data Cleaning
+**2. Data Cleaning**
 
 Converted Date to datetime format using errors='coerce'.
 
@@ -55,66 +54,47 @@ Extracted Year from Date.
 
 Handled missing values appropriately.
 
-3. Summary Statistics
+**3. Summary Statistics**
 
 Computed statistics like mean, median, standard deviation, min, and max for numeric fields.
 
-4. Visual Explorations
+**4. Visual Explorations**
 
 a. Histograms
 
-Distribution of Fatalities
+      Distribution of Fatalities
 
 b. Boxplots
 
-Boxplot of Fatalities
+      Boxplot of Fatalities
 
-Boxplot of Aircraft Age (if column exists)
+      Boxplot of Aircraft Age (if column exists)
 
 c. Correlation Heatmap
 
-Correlation matrix among numeric variables using heatmap.
+       Correlation matrix among numeric variables using heatmap.
 
 d. Temporal Trends
 
-Line chart showing crashes per year.
+       Line chart showing crashes per year.
 
 e. Pair Plot
 
-sns.pairplot() for Fatalities, Aboard, and Ground.
+       sns.pairplot() for Fatalities, Aboard, and Ground.
 
 f. Interactive Plot
 
-Plotly scatter plot of Aircraft Age vs. Fatalities.
+       Plotly scatter plot of Aircraft Age vs. Fatalities.
 
 5. Outlier Detection
 
-Used boxplots to visually detect outliers in numeric features like Fatalities and Aircraft Age.
+       Used boxplots to visually detect outliers in numeric features like Fatalities and Aircraft Age.
 
-6. Insights & Observations:
 
-Crashes with extremely high fatalities are rare but impactful.
 
-The number of crashes changed significantly over decades.
-
-Some correlation observed among Fatalities, Aboard, and Ground.
-
-Older aircraft may exhibit different fatality trends.
-
-7. Saving the Processed Dataset (Optional)
-
-# Save the cleaned dataset
-# df.to_csv('processed_airplane_crashes.csv', index=False)
-
-Conclusion:
+# Conclusion:
 
 This EDA project provides valuable insights into airplane crashes over time. The dataset has been cleaned, explored, and visualized thoroughly to identify key patterns, trends, and anomalies. This work lays the foundation for more complex modeling tasks or domain-specific investigations.
 
-Author:
 
-Your Name
-
-Date:
-
-May 2025
 
