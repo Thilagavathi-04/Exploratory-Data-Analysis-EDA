@@ -18,22 +18,24 @@ The objective of this project is to perform a comprehensive exploratory data ana
 
 **Tools & Libraries Used:**
 
-Python (Jupyter Notebook)
+-Python (Jupyter Notebook)
 
-pandas – Data manipulation
+-pandas – Data manipulation
 
-numpy – Numerical operations
+-numpy – Numerical operations
 
-matplotlib, seaborn – Static data visualization
+-matplotlib, seaborn – Static data visualization
 
-plotly – Interactive data visualization
+-plotly – Interactive data visualization
 
 # Project Structure:
 
-
 ── airplane_crash dataset.csv
+
 ── airplane_crash_eda.ipynb
-── processed_airplane_crashes.csv (optional)
+
+── processed_airplane_crashes.csv 
+
 ── README.md
 
 # Key Steps Performed:
@@ -86,7 +88,7 @@ f. Interactive Plot
 
        Plotly scatter plot of Aircraft Age vs. Fatalities.
 
-5. Outlier Detection
+**5. Outlier Detection**
 
        Used boxplots to visually detect outliers in numeric features like Fatalities and Aircraft Age.
 
